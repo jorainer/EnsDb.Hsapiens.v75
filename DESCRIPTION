@@ -1,0 +1,15 @@
+Package: EnsDb.Hsapiens.v75
+Title: Ensembl based annotation package
+Description: Exposes an annotation databases generated from Ensembl.
+Version: 2.0.0
+Author: Johannes Rainer
+Maintainer: J Rainer <johannes.rainer@eurac.edu>
+Depends: ensembldb
+License: Artistic-2.0
+organism: Homo_sapiens
+species: Homo_sapiens
+provider: Ensembl
+provider_version: 75
+release_date: Mon Oct  3 09:48:13 2016
+resource_url: localhost
+biocViews: AnnotationData, EnsDb, Homo_sapiens
