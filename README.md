@@ -18,14 +18,8 @@ biocLite("EnsDb.Hsapiens.v75")
 ```
 
 In addition it is possible to install the development version of the package
-directly from github.
-
-```{r}
-library(devtools)
-install_github("jotsetung/EnsDb.Hsapiens.v75")
-```
-
-Alternatively clone the repository and use `R CMD build EnsDb.Hsapiens.v75` to
-build the package and `R CMD INSTALL EnsDb.Hsapiens.v75.*` to install it.
-
-
+directly from github by first cloning the repository (`git-lfs`, i.e. git large
+file storage should be installed on the system in order to fetch the SQLite
+database file). The package can then be build with `R CMD build
+EnsDb.Hsapiens.v75` and finally installed with `R CMD INSTALL
+EnsDb.Hsapiens.v75_*`.
